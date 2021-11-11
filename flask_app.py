@@ -11,6 +11,10 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello from Flask!'
 
-@app.route("today")
+@app.route("/today")
 def today():
 	return str(date.today())
+
+@app.route("/hello")
+def hello():
+    return "helllo"
