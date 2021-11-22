@@ -18,4 +18,3 @@ def today():
 @app.route("/hello")
 def hello():
     return "helllo"
-print("jello")
